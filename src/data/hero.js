@@ -29,7 +29,7 @@ export const heroData = {
   ctaButtons: [
     {
       text: "View My Work",
-      href: "#project",
+      href: "#projects",
       variant: "primary",
     },
     {

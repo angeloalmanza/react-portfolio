@@ -8,7 +8,7 @@ export const projects = [
     {
         title: "Boolgames frontend",
         description: "This project is the frontend of a web app for managing a video game collection. It uses React to create a dynamic and interactive user interface.",
-        tech: ["React", "Axios", "Javascript", "CSS"],
+        tech: ["React", "Javascript", "CSS"],
         github: "https://github.com/angeloalmanza/progetto-finale-frontend",
     },
     {
