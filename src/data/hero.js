@@ -3,6 +3,8 @@ export const heroData = {
     name: "Angelo",
     roles: [
         "Full Stack Developer",
+        "React Specialist",
+        "Creative Coder"
     ],
     description: "I’m a Full Stack Developer focused on building modern, scalable web applications, handling both frontend and backend with attention to performance and user experience.",
     stats: [
