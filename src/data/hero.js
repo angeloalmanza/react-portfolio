@@ -6,8 +6,8 @@ export const heroData = {
     "I’m a Full Stack Developer focused on building modern, scalable web applications, handling both frontend and backend with attention to performance and user experience.",
   stats: [
     { number: "2+", label: "Years Experience" },
-    { number: "10+", label: "Personal Project" },
-    { number: "300+", label: "Coding Hours" },
+    { number: "10+", label: "Projects Built" },
+    { number: "5+", label: "Technologies" },
   ],
   socialLinks: [
     {

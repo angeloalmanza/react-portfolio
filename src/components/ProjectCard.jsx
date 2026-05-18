@@ -24,10 +24,16 @@ const ProjectCard = ({ project }) => {
                     ))}
                 </div>
                 <div className="flex space-x-4 mt-auto">
-                    <a href={project.github} className="flex items-center text-gray-600 hover:text-black transitions-colors text-sm">
+                    <a href={project.github} target="_blank" rel="noopener noreferrer" className="flex items-center text-gray-600 hover:text-black transition-colors text-sm">
                         <Github className="w-4 h-4 mr-1"/>
                         Code
                     </a>
+                    {project.live && (
+                        <a href={project.live} target="_blank" rel="noopener noreferrer" className="flex items-center text-gray-600 hover:text-black transition-colors text-sm">
+                            <ExternalLink className="w-4 h-4 mr-1"/>
+                            Live Demo
+                        </a>
+                    )}
                 </div>
             </div>
         </div>

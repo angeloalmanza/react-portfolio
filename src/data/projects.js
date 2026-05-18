@@ -1,20 +1,21 @@
 export const projects = [
     {
-        title: "Boolgames laravel",
-        description: "This project is the backend of a web app for managing a video game collection. Developed with Laravel, it handles the application logic, the database, and provides REST APIs for the React frontend.",
-        tech: ["PHP", "Laravel", "MySQL"],
+        title: "ActionFlow",
+        description: "AI-powered platform that transforms meeting transcripts into tasks automatically. Paste a transcript, Groq AI (Llama 3.3 70b) extracts action items, assigns them to team members and updates the Kanban board — all in background via Laravel Queues.",
+        tech: ["Laravel", "React", "PostgreSQL", "Redis", "Docker", "Groq AI"],
+        github: "https://github.com/angeloalmanza/actionflow",
+        live: "https://actionflow-app.netlify.app",
+    },
+    {
+        title: "Boolgames",
+        description: "Full-stack web app for managing a video game collection. Laravel REST API backend with authentication and a React frontend with dynamic UI.",
+        tech: ["PHP", "Laravel", "React", "MySQL"],
         github: "https://github.com/angeloalmanza/laravel-progetto-finale",
     },
     {
-        title: "Boolgames frontend",
-        description: "This project is the frontend of a web app for managing a video game collection. It uses React to create a dynamic and interactive user interface.",
-        tech: ["React", "Javascript", "CSS"],
-        github: "https://github.com/angeloalmanza/progetto-finale-frontend",
-    },
-    {
         title: "BDoctors",
-        description: "BDoctors is the web interface for an application that allows users to search for medical professionals, view them on a map, read reviews, and register new professionals in the system.",
-        tech: ["React", "Javascript", "API Google Maps"],
+        description: "Web interface to search for medical professionals, view them on a map, read reviews and register new doctors in the system.",
+        tech: ["React", "Javascript", "Google Maps API"],
         github: "https://github.com/sebastianosalzillo/bdoctors-frontend",
     }
 ]
