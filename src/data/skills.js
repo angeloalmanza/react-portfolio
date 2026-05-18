@@ -9,6 +9,6 @@ export const skills = [
     },
     {
         category: "Tools",
-        items: ["Git", "Bootstrap", "Backpack Laravel"],
+        items: ["Git", "Docker", "Bootstrap", "Backpack Laravel"],
     }
 ]
