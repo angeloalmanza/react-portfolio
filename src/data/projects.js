@@ -7,10 +7,11 @@ export const projects = [
         live: "https://actionflow-app.netlify.app",
     },
     {
-        title: "Boolgames",
-        description: "Full-stack web app for managing a video game collection. Laravel REST API backend with authentication and a React frontend with dynamic UI.",
-        tech: ["PHP", "Laravel", "React", "MySQL"],
-        github: "https://github.com/angeloalmanza/laravel-progetto-finale",
+        title: "InvoiceFlow",
+        description: "Invoice management SaaS for freelancers. Create and manage clients, generate professional PDF invoices, track payment status (draft → sent → paid) and monitor revenue from a real-time dashboard.",
+        tech: ["Laravel", "Vue 3", "PostgreSQL", "Docker", "Vite"],
+        github: "https://github.com/angeloalmanza/invoiceflow",
+        live: "https://app-invoiceflow.netlify.app",
     },
     {
         title: "BDoctors",
